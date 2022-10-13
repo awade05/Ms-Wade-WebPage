@@ -1,1 +1,1 @@
-# Ms.-Wade-WebPage
+# Ms-Wade-WebPage
