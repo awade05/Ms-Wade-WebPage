@@ -1,0 +1,39 @@
+body {
+}
+h1 {
+  font-size: 24px;
+  color: white;
+  font-family: Arial Narrow, sans-serif;
+  font-style: normal;
+}
+#container{
+  display:grid;
+  grid-template-rows: 60px 400px 60px;
+} 
+#navbar{
+  background-color: #b3c6ff;
+  align-content: center;
+  padding-left: 10px;
+}
+#pagebody{
+  grid-template-columns: 300px 1fr;
+  display:grid; 
+  text-align: justify;
+  
+}
+#footer{
+  background-color: #b3c6ff;
+  text-align: center;
+  padding-top:10px;
+}
+#leftside{
+  background-color: #ffe6f7; 
+}
+#rightside{
+  background-color: #ffb3e6;
+  padding-left: 20px;
+}
+p span:not(:first-child){
+  border-left:1px solid #000;
+}
+
