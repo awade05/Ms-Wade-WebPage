@@ -2,7 +2,51 @@
 <html lang="en">
   <head>
     <title></title>
+    <style>
     <link rel="stylesheet" href="AboutMe.css" type="text/css" />
+      body {
+}
+h1 {
+  font-size: 24px;
+  color: white;
+  font-family: Arial Narrow, sans-serif;
+  font-style: normal;
+}
+#container{
+  display:grid;
+  grid-template-rows: 60px 600px 60px;
+} 
+#navbar{
+  background-color: #b3c6ff;
+  align-content: center;
+  padding-left: 10px;
+}
+#pagebody{
+  grid-template-columns: 400px 1fr;
+  display:grid; 
+  text-align: justify;
+ 
+  
+}
+#footer{
+  background-color: #b3c6ff;
+  text-align: center;
+  padding-top:10px;
+  
+}
+#leftside{
+  background-color: #ffe6f7; 
+  padding:30px;
+}
+#rightside{
+  background-color: #ffb3e6;
+  padding: 30px;
+}
+p span:not(:first-child){
+  border-left:1px solid #000;
+}
+
+    </style>
   </head>  
   <body>
     <div id="container">
